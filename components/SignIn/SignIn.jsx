@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { FormControl, Text, Button, Input, Flex, Heading, Box, Spacer } from "@chakra-ui/react";
 const SignIn = () => {
   return (
@@ -25,9 +26,11 @@ const SignIn = () => {
         <Text color="brand.200" fontWeight="extrabold" cursor="pointer" mt="1rem">
           Forgot password?
         </Text>
-        <Button bg="brand.200" boxShadow="0px 4px 8px rgba(0, 0, 0, 0.25)" borderRadius="30px" color="white" p="1.2rem" mt="2rem" _hover={{ color: "brand.200", bg: "white" }}>
-          Sign In
-        </Button>
+        <Link href="/dashboard">
+          <Button bg="brand.200" boxShadow="0px 4px 8px rgba(0, 0, 0, 0.25)" borderRadius="30px" color="white" p="1.2rem" mt="2rem" _hover={{ color: "brand.200", bg: "white" }}>
+            Sign In
+          </Button>
+        </Link>
       </Box>
       <Spacer />
       <Box bg="brand.100" minH="100vh" d="flex" alignItems="center">
