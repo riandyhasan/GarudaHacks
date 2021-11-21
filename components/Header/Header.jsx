@@ -57,9 +57,11 @@ const Header = ({ ...props }) => {
               </Link>
             </Box>
           ))}
-          <Button bg="brand.200" fontSize="1.1em" boxShadow="0px 4px 8px rgba(0, 0, 0, 0.25)" borderRadius="30px" color="white" _hover={{ color: "brand.200", bg: "white" }} padding="1.2rem">
-            Sign In
-          </Button>
+          <Link href="/signin">
+            <Button bg="brand.200" fontSize="1.1em" boxShadow="0px 4px 8px rgba(0, 0, 0, 0.25)" borderRadius="30px" color="white" _hover={{ color: "brand.200", bg: "white" }} padding="1.2rem">
+              Sign In
+            </Button>
+          </Link>
         </Stack>
       </Box>
     </Flex>
