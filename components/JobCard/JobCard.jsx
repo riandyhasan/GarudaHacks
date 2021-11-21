@@ -11,7 +11,7 @@ const JobCard = ({ nama, company, description, active, navSize }) => {
         <Flex alignItems="center" gridGap="2rem">
           <Image src="/assets/images/job/1.png" width={60} height={60} />
           <Box>
-            <Heading fontSize="2xl">nama</Heading>
+            <Heading fontSize="2xl">Shopee</Heading>
             <Text>Company</Text>
           </Box>
         </Flex>
@@ -22,16 +22,16 @@ const JobCard = ({ nama, company, description, active, navSize }) => {
           <Heading fontSize="xl">UI/UX Designer</Heading>
           <Flex alignItems="center" gridGap="0.5rem">
             <MdLocationOn color="#3C7DD9" />
-            <Text>Location</Text>
+            <Text>Bandung</Text>
           </Flex>
         </Box>
         <Box>
-          <Heading fontSize="lg">Title</Heading>
+          <Heading fontSize="lg">Job Description</Heading>
           <Text>Shopee is loking for UI/UX designer. In this team you will be responsible for developing Shopee’s UI/UX Web-based Application. The criteria for applicant are....... </Text>
         </Box>
         <Flex>
           <Badge p="0rem 0.8rem 0rem 0.8rem" bg="#C4C4C4" color="white">
-            Default
+            Full Time
           </Badge>
         </Flex>
       </Box>
