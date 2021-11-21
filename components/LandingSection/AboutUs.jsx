@@ -4,7 +4,7 @@ import { Box, Flex, Heading } from "@chakra-ui/react";
 
 const AboutUs = () => {
   return (
-    <Flex justifyContent="flex-start" alignItems="flex-start" padding="1rem 4rem 4rem 0rem" gridGap="8rem">
+    <Flex id="aboutus" justifyContent="flex-start" alignItems="flex-start" padding="1rem 4rem 4rem 0rem" gridGap="8rem">
       <Image src="/assets/images/about us.png" width={750} height={550} />
       <Box>
         <Heading fontWeight="extrabold" fontSize="6xl" maxW="30vw">
