@@ -4,7 +4,7 @@ import { Flex } from "@chakra-ui/react";
 
 export default function signin() {
   return (
-    <Flex w="100%">
+    <>
       <Head>
         <title>SemuaSama | Sign In</title>
       </Head>
@@ -12,6 +12,6 @@ export default function signin() {
       <main>
         <SignIn />
       </main>
-    </Flex>
+    </>
   );
 }
